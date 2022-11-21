@@ -23,6 +23,8 @@ Desenvolver um sistema para Internet que sirva como uma página pessoal.
 <br>
 
 <h3>Se seu sistema operacional for Windows</h3>
+<br>
+
 ![Windows](https://img.shields.io/badge/Windows-017AD7?style=for-the-badge&logo=windows&logoColor=white)
 
 <h3>Deverá abrir o CMD e com o comando CD navegar até a pasta onde o repositório foi clonado e executar o segunte comando para criar o ambiente virtual:</h3>
@@ -53,6 +55,8 @@ ou
 <br> 
 
 <h3>Se seu sistema operacional for Linux</h3>
+<br> 
+
 ![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)
 
 <h3>Deverá abrir o terminal e com o comando CD navegar até a pasta onde o repositório foi clonado e executar o seguinte comando para criar o ambiente virtual:</h3>
