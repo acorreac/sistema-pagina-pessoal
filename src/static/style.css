@@ -1,0 +1,332 @@
+
+body {
+    background: linear-gradient(45deg, rgba(219, 195, 181, 0.589), rgba(185, 135, 107, 0.363));
+	/* line-height: 1; */
+}
+
+.box {
+    background: linear-gradient(45deg, red, royalblue);
+    position: relative;
+    width: 90%;
+    height: 250px;
+    margin: 2% auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px black;
+}
+
+.photo-page {
+    position:relative;
+    left: 45%;
+    top: 10%;
+    border-radius: 50%;
+    box-shadow:0 0 30px 5px black;
+}
+
+.header-title {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 10%;
+    text-shadow: 0 2px 5px black;
+    font-size: large;
+}
+
+.logo {
+    position: relative;
+    top: 18%;
+    left: 73%;
+    border-radius: 1%;
+}
+
+.title-resume {
+    margin: 8% auto 3% 25%;
+    width: 55%;
+    font-size:xx-large;
+    text-align: center;
+    text-shadow: 0 2px 5px black;
+    color: #000000;
+
+}
+
+.resume{
+    text-align: justify;
+    font-size: large;
+}
+
+.curriculo-div {
+    background-color: rgb(255, 254, 254);
+    padding: 2%;
+    margin: 0 35% 2% 6%;
+    font-size: medium;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    border-radius: 40px 10px 40px 10px;
+    box-shadow: 0 0 40px black;
+}
+
+.portifolio-div {
+    background-color: rgb(255, 255, 255);
+    padding: 2% 2% 2% 2%;
+    margin: 2% 4% 2% 40%;
+    font-size: medium;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    border-radius: 40px 10px 40px 10px;
+    box-shadow: 0 0 40px black;
+}
+
+.hobby-div {
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    margin: 0 35% 2% 6%;
+    font-size: medium;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    border-radius: 40px 10px 40px 10px;
+    box-shadow: 0 0 40px black;
+}
+
+footer{
+    color: #ffffff;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 0 2px 5px rgb(0, 0, 0);
+    text-decoration: underline;
+    background: url("./img/footer.jpg");
+}
+
+.projetos {
+    width: 940px;
+    margin: 0px auto;
+    padding: 30px 0;
+}
+
+.projetos li {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.4% 15px 5px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    border-radius: 40px 10px 40px 10px;
+    box-shadow: 0 0 40px black;
+}
+
+.projetos h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.projetos-descricao {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+.projetos-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hobbys{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: justify;
+    width: 25%;
+    height: 30%;
+    vertical-align: top;
+    margin: 0 4% 5% 40%;
+    padding: 2% 2% 2% 5%;
+    box-sizing: border-box;
+    border-radius: 40px 10px 40px 10px;
+    box-shadow: 0 0 40px black;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+	.box{
+        background: linear-gradient(45deg, red, royalblue);
+        position: relative;
+        width: 100%;
+        height: 190px;
+        margin: 2% 0 5% 5%;
+        border-radius: 10px;
+        box-shadow: 0 0 20px 10px black;
+	}
+	.photo-page {
+        position:absolute;
+        left: 40%;
+        top: 55%;
+        border-radius: 50%;
+        box-shadow:0 0 30px 5px black;
+        width: 100px;
+        height: 106px
+    }
+    .header-title {
+        position: absolute;
+        text-align: center;
+        top: 10%;
+        left: 5%;
+        text-shadow: 0 2px 5px black;
+    }
+
+    h4{
+        font-size: medium;
+    }
+
+    .logo {
+        position:absolute;
+        top: 80%;
+        left: 80%;
+        border-radius: 1%;
+        width: 50px;
+        height: 30px
+    }
+    
+    .title-resume {
+        margin: 8% auto 3% 25%;
+        width: 55%;
+        font-size:xx-large;
+        text-align: center;
+        text-shadow: 0 2px 5px black;
+        color: #000000;
+    
+    }
+    
+    .resume{
+        text-align: justify;
+        font-size: large;
+    }
+
+    img{
+        width: 64px;
+        height: 64px;
+        
+    }
+
+    a {
+        margin-left: 0;
+        
+    }
+    strong{
+        font-size: small;
+    }
+    
+    .curriculo-div {
+        background-color: rgb(255, 254, 254);
+        padding: 4%;
+        margin: 3% auto 3% 5%;
+        width: 88%;
+        text-align: justify;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        box-sizing: border-box;
+        border-radius: 40px 10px 40px 10px;
+        box-shadow: 0 0 40px black;
+    }
+
+    
+    .portifolio-div {
+        background-color: rgb(255, 254, 254);
+        padding: 4%;
+        margin: 3% auto 3% 25%;
+        width: 60%;
+        text-align: justify;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        box-sizing: border-box;
+        border-radius: 40px 10px 40px 10px;
+        box-shadow: 0 0 40px black;
+    }
+    
+    .hobby-div {
+        background-color: rgb(255, 254, 254);
+        padding: 4%;;
+        margin: 3% auto 3% 25%;
+        width: 60%;
+        text-align: justify;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        box-sizing: border-box;
+        border-radius: 40px 10px 40px 10px;
+        box-shadow: 0 0 40px black;
+    }
+    
+    footer{
+        color: #ffffff;
+        font-size: x-large;
+        text-align: center;
+        text-shadow: 0 2px 5px rgb(0, 0, 0);
+        text-decoration: underline;
+        background: url("./img/footer.jpg");
+    }
+
+    .container{
+        margin-left: 30%;
+    }
+    
+    .projetos {
+        width: 450px;
+        margin: 0px auto;
+        padding: 15px 0;
+    }
+    
+    .projetos li {
+        background-color: rgb(255, 255, 255);
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align: top;
+        margin: 0 1.4% 15px 5px;
+        padding: 50px 20px;
+        box-sizing: border-box;
+        border-radius: 40px 10px 40px 10px;
+        box-shadow: 0 0 40px black;
+    }
+    
+    .projetos h2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .projetos-descricao {
+        font-size: 15px;
+        font-style: italic;
+        text-align: center;
+    }
+    
+    .projetos-link {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .hobbys{
+        background-color: rgb(255, 255, 255);
+        display: inline-block;
+        text-align: justify;
+        width: 50%;
+        height: 30%;
+        vertical-align: top;
+        margin: 0 4% 5% 25%;
+        padding: 2% 2% 2% 5%;
+        box-sizing: border-box;
+        border-radius: 40px 10px 40px 10px;
+        box-shadow: 0 0 40px black;
+    }
+    
+    .nav {
+        width:100%;
+      }
+      .nav-item {
+        width:100%;
+        float:none;
+    }
+}
+
+@media print{
+	body{
+		background-color: linear-gradient(45deg, rgba(219, 195, 181, 0.589), rgba(185, 135, 107, 0.363));
+        font-size: 80%;
+	}
+}
